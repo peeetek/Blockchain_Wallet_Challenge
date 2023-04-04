@@ -42,12 +42,14 @@ To use the KryptoJobs2Go application, follow the steps outlined below:
 
     ![hire](Images/selection.png)
 
-5. Click the "Send Transaction" button to sign, send the transaction with your Ethereum account information and generate a hash key.
+5. Click the "Send Transaction" button to sign and  send the transaction from  your Ethereum account information.
+
+    ![balanceaftertransfer](Images/balance_after_transfer.png)
 
 6. If the transaction is successfully communicated to Ganache, validated, and added to a block, the resulting transaction hash code will be written to the Streamlit application sidebar.
 
     ![transaction](Images/hash.png)
 7. Navigate to the Ganache accounts tab and locate your account (index 0).
-![ganachetransfer](Images/ganache_transaction.png)
-8. Navigate to the Ganache transactions tab and locate the transaction.
 ![ganachebalance](Images/ganache_balance.png)
+8. Navigate to the Ganache transactions tab and locate the transaction.
+![ganachetransfer](Images/ganache_transaction.png)
