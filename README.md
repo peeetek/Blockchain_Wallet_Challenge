@@ -26,7 +26,7 @@ You can install Streamlit and Web3 using the following command:
 
 ## Project Structure
 
-- **'krypto_jobs.py'**: This is the main script file that contains the Streamlit application code for the KryptoJobs2Go platform. The application allows the customer to interact with their Ethereum account and hire a fintech professional.
+ - **'krypto_jobs.py'**: This is the main script file that contains the Streamlit application code for the KryptoJobs2Go platform. The application allows the customer to interact with their Ethereum account and hire a fintech professional.
 - **'crypto_wallet.py'**: This script file contains the Ethereum transaction functions that have been incorporated into Python functions, allowing the automation of the process of accessing them.
 - **'.env'**: Contains the mnemonic seed phrase for the Ethereum account.
 
@@ -42,16 +42,14 @@ To use the KryptoJobs2Go application, follow the steps outlined below:
 3. Select a fintech professional from the dropdown menu and enter the number of hours you wish to hire them for.
 4. The application will calculate the amount that the fintech professional will be paid in ether, and display it on the sidebar.
 
-![hire](Images/selection.png)
+    ![hire](Images/selection.png)
 
 5. Click the "Send Transaction" button to sign, send the transaction with your Ethereum account information and generate a hash key.
 
 6. If the transaction is successfully communicated to Ganache, validated, and added to a block, the resulting transaction hash code will be written to the Streamlit application sidebar.
-![transaction](Images/hash.png)
+
+    ![transaction](Images/hash.png)
 7. Navigate to the Ganache accounts tab and locate your account (index 0).
-
 ![ganachetransfer](Images/ganache_transaction.png)
-
 8. Navigate to the Ganache transactions tab and locate the transaction.
-
 ![ganachebalance](Images/ganache_balance.png)
